@@ -1,0 +1,19 @@
+p {
+    color: black;
+    font-family: "Verdana","DejaVu Sans", sans-serif;
+    background-color: lightcoral;
+}
+#line2 {
+    color: blue;
+    font-size: 36px;
+}
+
+.three {
+    font-size: 24px;
+}
+
+#line4 {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
