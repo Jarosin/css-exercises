@@ -12,6 +12,17 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  justify-content: space-between;
+}
+
+.links
+{
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  gap: 15px;
+  align-items: center;
 }
 
 .profile-image {
@@ -27,6 +38,7 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  margin: 20px;
 }
 
 button {
@@ -45,4 +57,12 @@ a {
 
 ul {
   list-style-type: none;
+}
+
+.right-part{
+  display: flex;
+  margin: 10px;
+  gap: 5px;
+  align-items: center;
+  margin-left: auto;
 }
